@@ -36,7 +36,7 @@ class associate():
 			mac_dic[m] = len(list(dict.fromkeys([src[i] for i, x in enumerate(mac) if x == m])))
 		prev_event = [event[mac.index(i)] for i in [mac_dic.keys()[mac_dic.values().index(x)] for x in mac_dic.values() if x>1]]
 		if prev_event:
-				print('#################### DDOS DETECTED ( SOURCE ) #########################')
+				print('#################### DDOS DETECTED (SOURCE) #########################')
 				self.prevent(prev_event)
 		else:
 			src_dic={}
@@ -44,7 +44,7 @@ class associate():
 				src_dic[m] = len(list(dict.fromkeys([dst[i] for i, x in enumerate(src) if x == m])))
 			prev_event = [event[src.index(i)] for i in [src_dic.keys()[src_dic.values().index(x)] for x in src_dic.values() if x>10]]
 			if prev_event:
-				print('#################### DDOS DETECTED ( DESTINATION ) #########################')
+				print('#################### DDOS DETECTED (DESTINATION) #########################')
 				self.prevent(prev_event)
 
 	def prevent(self,event):
