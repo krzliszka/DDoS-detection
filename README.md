@@ -12,8 +12,8 @@
 ![Alt text](/ss/1.png?raw=true "Topology")
 ---
 #### 2. Simulation
-* simulating the given topology with **normal** traffic
-* simulating the given topology with **attack** traffic
+* simulating the given topology with **normal** traffic,
+* simulating the given topology with **attack** traffic,
 * analyzing and comparing the recorded traffic
 
 ![Alt text](/ss/2.png?raw=true "Normal traffic")
