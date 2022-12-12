@@ -1,9 +1,9 @@
 
 # DDoS detection and mitigation in SDN controller
-### A software-defined IoT gateway model created during the implentation of the diploma thesis. Proprietary association algorithm was compared with the entropy method.
----
+## A software-defined IoT gateway model created during the implentation of the diploma thesis. Proprietary association algorithm was compared with the entropy method.
+
 ### Methodology
----
+
 #### 1. Model
 * implementing SDN as IoT gateway
 * creating a topology for simulation 
