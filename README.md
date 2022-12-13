@@ -10,7 +10,7 @@
 * creating scripts to generate traffic (using Scapy)
 
 ![Alt text](/ss/1.png?raw=true "Topology")
----
+
 #### 2. Simulation
 * simulating the given topology with **normal** traffic,
 * simulating the given topology with **attack** traffic,
@@ -19,13 +19,13 @@
 ![Alt text](/ss/2.png?raw=true "Normal traffic")
 
 ![Alt text](/ss/3.png?raw=true "Attack traffic")
----
+
 
 #### 3. Detection
 * if one MAC address is associated with more than one source IP address, then header information is forged (-> 4. Mitigation)
 * if one source IP address is associated with more than the threshold percentage of destination IP address of total connections, then header information is forged (-> 4. Mitigation)
 
----
+
 #### 4. Mitigation
 * block the traffic from the MAC address by installing the required flow entry
 * block the traffic from the MAC address or source IP address by installing the required FLOW_ENTRY
