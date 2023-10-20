@@ -34,6 +34,7 @@
 
 ![Alt text](/ss/5.png?raw=true )
 
+
 ***
 ### Conclusions
 This project shows the general structure for securing IoT netowrks using SDN as IoT gateway with new method to detect and mitigate DDoS attack. The proposed algorithm calculates the number of destination IP addresses associated with single source IP address and number of source IP addresses with a single MAC address. Then, it compares the calculated values with the threshold values and installs required flow entries accordingly. The results from the simulations shown that the proposed methodology is effective for detecting the attack in a shorter period of time and using minimal number of packets. After detection, the attack is successfully mitigated using flow entries.
